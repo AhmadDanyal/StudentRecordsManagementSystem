@@ -33,7 +33,7 @@ Running each
 
 ## Python and Virtual Environments
 
-It may be a good idea to set up a virtual environemnt to run you python application
+It may be a good idea to set up a virtual environment to run you python application
 
 See this article for more details https://www.liquidweb.com/kb/how-to-setup-a-python-virtual-environment-on-windows-10/
 
