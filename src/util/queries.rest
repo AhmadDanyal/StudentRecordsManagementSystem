@@ -1,0 +1,23 @@
+POST http://127.0.0.1:5000/register HTTP/1.1
+content-type: application/json
+
+{
+    "emailaddress": "sbearman@student.vassa.edu",
+    "firstname": "Sam",
+    "lastname": "Bearman",
+    "password": "password"
+}
+
+
+POST http://127.0.0.1:5000/login HTTP/1.1
+content-type: application/json
+
+{
+    "emailaddress": "sbearman@student.vassa.edu",
+    "password": "password"
+}
+
+GET http://127.0.0.1:5000/teacher HTTP/1.1
+content-type: application/json
+Authorization: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VySUQiOjE0LCJmaXJzdG5hbWUiOiJTYW0iLCJsYXN0bmFtZSI6IkJlYXJtYW4iLCJ1c2VyVHlwZSI6Imluc3RydWN0b3IiLCJleHAiOjE2MjAwMTg2Mzl9.nhKQe29-1UTPW_PhzkEFMvH7Zu4Ye0nBkgh-OA0D5ho
+
