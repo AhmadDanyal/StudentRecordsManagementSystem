@@ -1,6 +1,6 @@
-# cmsc-495
+# Student Records Management System
 
-495 Project
+CMSC495 Project (Capstone)
 
 ## Instructions on getting set-up
 
